@@ -1,0 +1,7 @@
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:0" Name="RPM-TMA-1_ROI07_multichannel">
+    <Pixels ID="Pixels:0" DimensionOrder="XYZCT" Type="float" SizeX="308" SizeY="524" SizeZ="1" SizeC="37" SizeT="1">
+      <MetadataOnly/>
+    </Pixels>
+  </Image>
+</OME>
