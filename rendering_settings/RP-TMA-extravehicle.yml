@@ -1,0 +1,40 @@
+---
+channels:
+    5:
+        active: true
+        color: FF0000
+        start: 0.0
+        end: 19.0254753494263
+        
+    7:
+        active: true
+        color: 00FF00
+        start: 0.0
+        end: 46.1503276443485
+
+    9:
+        active: true
+        color: 0000FF
+        start: 0.0
+        end: 6.04544531106956
+
+    1:
+        active: true
+        color: 00FFFF
+        start: 0.0
+        end: 217.7806874
+        
+    2:
+        active: true
+        color: FFFF00
+        start: 0.0
+        end: 20.25913324
+
+    18:
+        active: true
+        color: FF00FF
+        start: 0.0
+        end: 12.5214107036591
+
+greyscale: false
+version: 2
