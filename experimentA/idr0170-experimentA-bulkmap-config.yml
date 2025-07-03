@@ -1,0 +1,52 @@
+---
+name: idr0170-rose-mibitof/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Characteristics [Tissue]
+    clientname: Tissue
+    include: yes
+
+  - name: Experimental Condition [Mouse Line]
+    clientname: Mouse Line
+    include: yes
+
+  - name: Experimental Condition [Treatment]
+    clientname: Treatment
+    include: yes
+
+  - name: Experimental Condition [Tumor Detection Date]
+    clientname: Tumor Detection Date
+    include: yes
+
+  - name: Experimental Condition [Mouse Termination Date]
+    clientname: Mouse Termination Date
+    include: yes
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
