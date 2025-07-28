@@ -1,43 +1,36 @@
 ---
 channels:
-    3:
-        active: false
-        
-    5:
-        active: true
-        color: FF0000
-        start: 0.0
-        end: 32.4389391517638
-        
-    7:
-        active: true
-        color: 00FF00
-        start: 0.0
-        end: 42.77191162
-
-    9:
-        active: true
-        color: 0000FF
-        start: 0.0
-        end: 8.43847846984863
-
     1:
         active: true
         color: 00FFFF
         start: 0.0
         end: 72.69908073
-        
     2:
         active: true
         color: FFFF00
         start: 0.0
         end: 8.111039162
-
+    3:
+        active: false
+    5:
+        active: true
+        color: FF0000
+        start: 0.0
+        end: 32.4389391517638
+    7:
+        active: true
+        color: 00FF00
+        start: 0.0
+        end: 42.77191162
+    9:
+        active: true
+        color: 0000FF
+        start: 0.0
+        end: 8.43847846984863
     18:
         active: true
         color: FF00FF
         start: 0.0
         end: 3.055413485
-
 greyscale: false
 version: 2
