@@ -1,0 +1,104 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.	
+# STUDY DESCRIPTION SECTION				
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details	
+
+Comment[IDR Study Accession]	idr0170	
+Study Title	Imaging Mass Cytometry Dataset of Small-Cell Lung Cancer tumors and tumor environments								
+Study Type	multiplexed ion beam imaging assay	image cytometry
+Study Type Term Source REF	OBI	OMIT				
+Study Type Term Accession	OBI_0003100	OMIT_0019157
+
+Study Description	SCLC_IMC is a dataset containing images from mouse SCLC tumors and their tumor environments, acquired with imaging mass cytometry.  Lung tumors were induced in two mouse lines differing by their tumor mutation burden (TMB). After appearance of the tumors, each mouse was treated with one of the five considered treatment.
+
+Study Key Words	SCLC	IMC	MIBI-TOF	Hyperion	tumor micro-environment	mouse models
+Study Organism	Mus musculus
+Study Organism Term Source REF	NCBITaxon	
+Study Organism Term Accession	10090		
+Study Experiments Number	1
+Study External URL
+Study BioImage Archive Accession	S-BIAD1961
+Study Public Release Date	2025-08-06									
+																																	
+# Study Publication	
+Study PubMed ID	
+Study Publication Title	Imaging Mass Cytometry Dataset of Small-Cell Lung Cancer tumors and tumor microenvironments	
+Study Author List	Rose F, Ibruli O, Lichius L, Kiljan M, Gozum G, Caiaffa MI, Cai J, Niu L-N, Herter JM, Grüll H, Büttner R, Beleggia F, Bosco G, George J, Thomas RK, Bozek K, Reinhardt HC, Herter-Sprie GS	
+Study PMC ID	
+Study DOI	
+																																	
+# Study Contacts			
+Study Person Last Name	Rose	Ibruli
+Study Person First Name	France	Olta		
+Study Person Email	france.rose@wanadoo.fr	ibruliolta@yahoo.com
+Study Person Address	Robert-Koch Strasse 21, 50931 Köln, Germany   Weyertal 115b, 50931 Köln, Germany					
+Study Person ORCID	0000-0001-5828-3259								
+Study Person Roles	submitter	experimentalist	
+																																	
+# Study License and Data DOI
+Study License	CC0 1.0
+Study License URL	https://creativecommons.org/publicdomain/zero/1.0/
+Study Copyright	Rose et al
+Study Data Publisher	University of Dundee	
+Study Data DOI	
+																																
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	
+																																
+																																	
+# EXPERIMENT SECTION																																	
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment	
+																																	
+Experiment Number	1
+Comment[IDR Experiment Name]	idr0170-rose-mibitof/experimentA	
+Experiment Sample Type	tissue																					
+Experiment Description	Imaging Mass Cytometry multi-channel images.							
+Experiment Size	5D Images: 224	Average Image Dimension (XYZCT): (500, 500, 1, 37, 1)	Total Tb: 3.2GB	
+Experiment Example Images	experimentB/RP-TMA/RP-TMA-3_ROI07_maxproj_composite_NCAM_CD45_DNA.png 
+Experiment Imaging Method	imaging mass cytometry
+Experiment Imaging Method Term Source REF	Fbbi					
+Experiment Imaging Method Term Accession	 									
+Experiment Organism						
+Experiment Organism Term Source
+Experiment Organism Term Accession	
+Experiment Comments	Multiplexed ion beam imaging by time of flight (MIBI-TOF) imaging mass cytometry (Hyperion, Fluidigm).  Were excluded because of the area covered by the image was too small(RPM-TMA-1-ROI03, RPM-TMA-1-ROI04, RPM-TMA-1-ROI09, RPM-TMA-1-ROI34, RP-TMA-C4-ROI05). Were excluded because the tissue was not present and no signal could be detected in any of the channels (RP-TMA-3-ROI16, RP-TMA-3-ROI17, RP-TMA-3-ROI28, RP-TMA-3-ROI84, RP-TMA-3-ROI90, RPM-TMA-2-ROI50, RPM-TMA-2-ROI52).
+																																	
+# assay files
+Experiment Assay File	idr0170-experimentA-annotation				
+Experiment Assay File Format	tab-delimited text
+Assay Experimental Conditions	Two genetically engineered mouse lines (RP and RPM), SCLC tumor development, comparison between 6 cancer treatments.
+Assay Experimental Conditions Term Source REF	
+Assay Experimental Conditions Term Accession
+Quality Control Description	Mice were handled under the European rules, including regular checks after tumor development for general health and termination criteria matching. All the antibody stainings were established on frozen murine spleen tissues prior to the TMA imaging. In addition, spleen cores were included in both TMAs as positive tissue controls. The IMC images were inspected for the quality of signal, and images without signal in any of the channels (3 images) and too small images (3 images) were discarded.
+																																	
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol		
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol			
+Protocol Type Term Source REF	EFO	EFO										
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																	
+Protocol Description	How the cells were grown: Animal experiments for this study were approved by the local Ethics Committee of Animal Experiments authorities (LANUV, North Rhine-Westphalia, Germany) under license number 81-02.04.2019-A491. All mice were housed and cared for according to FELASA recommendations and in compliance with the European Union and German guidelines. Mice were bred in individually ventilated cages (IVCs). Up to five mice  were housed per cage, under a 12-hour light/dark cycle and at a temperature of 20–22°C. Two mouse models were used in this study. The RP model, harboring Rb1fl/fl and Trp53fl/fl alleles, was generated as described by Meuwissen et al., 2003, and mimics the classic small cell lung cancer (SCLC) pathology. MMR deficiency in the RP background was achieved through the incorporation of a conditional Msh2 knockout, generating the RPM model (Rb1fl/fl;Trp53fl/fl;Msh2fl/fl). This involved crossing RP mice with Msh2LoxP/LoxP mice, carrying a floxed exon 12 (Kucherlapati et al., 2010). Tumor induction was achieved through intratracheal delivery of Adeno-CMV-Cre, which facilitated the simultaneous loss of Rb1, Trp53, and Msh2 alleles in lung epithelial cells. Tumors typically developed within six months, monitored bi-weekly via MRI.	Specific treatment to the cells: A structured preclinical therapy design was implemented to assess the efficacy of the different treatment regimens. The treatments were administrated when the tumor was visible on the MRI scan and the tumor burden was within the 5-20 mm3. We assigned randomly RPM and RP mice to different therapies. 1- Platinum-based chemotherapy (standard clinical care for SCLC): A combination of Etoposide and Cisplatin was used. Etoposide (8 mg/kg) was delivered intraperitoneally (i.p.) on days 1, 2, and 3 of a two-week cycle. Cisplatin (4 mg/kg) was given i.p. on day 1 of the same cycle. 2- Immune checkpoint inhibition (standard clinical practice for SCLC): To target the upregulated PD-1/PD-L1 immune checkpoint pathway in SCLC, the anti-PD-1 antibody RMP1-14 (BioXCell) was utilized (Yan et al., 2016). It was administered i.p. at 200 µg per mouse. Two dosing schedules were employed: three times per week until euthanasia criteria were met or twice a week for three weeks. 3- Treg suppressor (Palbociclib for CDK4/6 inhibition): Various studies have shown that tumors could respond to regulatory T cell suppression (Facciabene et al., 2012; Li et al., 2024). Palbociclib, a CDK4/6 inhibitor, was administered orally (100 mg/kg) on days 1-7 of a two-week cycle. 4- Combination of chemotherapy and immune checkpoint inhibition (first-line treatment in the clinics). 5- Combination Treg suppressor with chemotherapy and immune checkpoint inhibition. 6- Vehicle: To ensure that any differences in the results of the study, the control group was treated with phosphate-buffered saline (PBS) (3 times per week). Mice were closely monitored throughout treatment for general health, including body weight, appearance, and signs of distress such as breathing difficulties. Bi-weekly MRI imaging was employed to monitor tumor development. Animals exhibiting more than 20% weight loss, severe ulcers, or respiratory complications were euthanized. Animals removed for non-cancer-related reasons, such as injuries from cage mates, were excluded from analysis.	Labeling, the imaging hardware and software, feature extraction methods: To assess differences between the mouse lines and treatment groups at a tissue and cellular level, we imaged tumor and border tissues with Imaging Mass Cytometry (IMC). Lungs bearing tumors were first harvested, followed by the dissection of the tumor and its adjacent normal lung tissue. To prevent tissue damage, tumor tissues were treated with 20% ice-cold sucrose for 30 minutes. Tumor tissues were embedded in Tissue-Tek O.C.T. Compound (Sakura) and rapidly frozen in an isopentane bath cooled with liquid nitrogen to maintain structural integrity. Then, the frozen blocks were stored at -80ºC before further processing. Separate TMAs were constructed for RP and RPM samples. TMAs facilitate the staining, imaging and analysis in a high-throughput manner.Ten tumors per treatment group, one tumor per mouse, were selected. First, some Tissue-Tek O.C.T compound was added to a plastic mold, removing any bubbles that might form, and allowed to freeze at -25ºC for approximately one hour. Once the block had solidified, the plastic mold was removed. The frozen tumor blocks were processed inside a cryostat at -25ºC. Cores, 1.5 mm in diameter, were extracted from the tumor center and tumor-normal interface using single-use needles, ensuring representative sampling. These cores were immediately loaded into the frozen TMA block. 33-marker antibody panel was established for IMC staining and analysis. This panel includes markers for SCLC tumor cells, stroma compartments (endothelial cells and fibroblasts), and for major immune cell types (pan-leukocytes, T cells, B cells, macrophages, dendritic cells, and Treg). The antibody panel included functional markers to evaluate cellular states, including activation, exhaustion, apoptosis, and proliferation (see `idr0170-experimentA-IMCchannels.csv` file for more details). Antibodies were either bought pre-conjugated with metal isotopes or conjugated in-house with the help of MaxPar conjugation kits (Standard Biotools) and their instructions. Samples of murine spleen tissue are included to verify the sensitivity and specificity of all antibodies, acting as control tissues (see `idr0170-experimentA-annotation.csv` file).After building the TMA block, 5µm-thick sections were sliced with a cryostat and mounted onto microscope slides (SuperFrost Plus™ Adhesion slides, Thermo Scientific). Slides were frozen at −80°C and stained within two weeks. Longer storage could affect the staining quality. Before staining, the slides were thawed at room temperature for 30 minutes, fixed using Image-iT™ Fixative Solution (ThermoFisher) washed in DPBS and DPBS/0.05% Tween-20, and blocked with SuperBlock™ Blocking Buffer (Thermo Fisher Scientific) for one hour. Primary antibody staining was conducted overnight at 4°C. The next morning, slides were washed, and nuclear staining was performed using Cell-ID Intercalator-Ir (Standard Biotools) and DAPI. Stained slides were washed, air-dried, and prepared for imaging. IMC enables multiplexed detection of up to 40 markers within a single tissue section. Combining laser ablation with time-of-flight mass spectrometry, IMC can quantify metal-labeled antibodies in tissue sections. The high number of simultaneous markers allow a precise description of cellular content as well as spatial relationships between cells. Per mouse, two areas to image were selected such that one was located in the central tumor region and one in the tumor-normal lung border, with the help of the MCD software viewer. The automatic ablation of all selected areas was done.	Analysis of the images and features if applicable: Custom python scripts were created to extract the images from the original .mcd files and convert them in the open source format ZARR. The order for channels in the multichannel tiff images is the same as in the `idr0170-experimentA-IMCchannels.csv` file (with manual estimation of the overall quality of the staining of each marker). Additionally after manual inspection, some ROI images were found without signal or too small, and removed from the dataset. The tiff images contain unprocessed IMC values for the 37 channels per ROI. The correspondance between the ROIs and the mouse line and treatment group is available in companion table of content file `idr0170-experimentA-annotation.csv`. As one goal of the analysis was to compare the immune profile around the tumors and inside, we provide a binary mask for each ROI delineating the tumor area (filled with 255 in the tumor area and 0 outside). The outlining of the tumor border was done manually in Fiji based on a normalized RGB image (blue for DNA, red for NCAM and green for PD-L1).			
+																																	
+# Phenotypes
+Phenotype Name	
+Phenotype Description		
+Phenotype Score Type							
+Phenotype Term Source REF	CMPO
+Phenotype Term Name	
+Phenotype Term Accession	
+																																	
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well)	
+Feature Level Data File Name	idr0170-experimentA-IMCchannels.csv
+Feature Level Data File Format	tab-delimited text
+Feature Level Data File Description	IMC channels
+Feature Level Data Column Name	channel	metal	antibody	marker_info_level0	marker_info_level1	overall_quality
+Feature Level Data Column Description	channel order in the tiff files	metal isotope used for IMC	protein recognized by the antibody	general functional category corresponding to the target protein	more precise functional category corresponding to the target protein	visual overall quality assessment of the staining quality in the dataset 
+																																	
+#  Processed Data Files
+Processed Data File Name	
+Processed Data File Format	tab-delimited text
+Processed Data File Description	
+Processed Data Column Name																																	
+Processed Data Column Type	
+Processed Data Column Annotation Level	
+Processed Data Column Description	
+Processed Data Column Link To Assay File	
