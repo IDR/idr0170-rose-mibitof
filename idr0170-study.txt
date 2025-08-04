@@ -53,7 +53,7 @@ Comment[IDR Experiment Name]	idr0170-rose-mibitof/experimentA
 Experiment Sample Type	tissue																					
 Experiment Description	Imaging Mass Cytometry multi-channel images.							
 Experiment Size	5D Images: 224	Average Image Dimension (XYZCT): (500, 500, 1, 37, 1)	Total Tb: 3.2GB	
-Experiment Example Images	experimentB/RP-TMA/RP-TMA-3_ROI07_maxproj_composite_NCAM_CD45_DNA.png 
+Experiment Example Images	RP-TMA/RP-TMA-3_ROI07_maxproj_composite_NCAM_CD45_DNA.png 
 Experiment Imaging Method	imaging mass cytometry
 Experiment Imaging Method Term Source REF	Fbbi					
 Experiment Imaging Method Term Accession	 									
